@@ -4,8 +4,8 @@
 class Btplayersetup < Formula
   desc ""
   homepage ""
-  url "https://github.com/pritamwipro/btplayersetup/archive/v1.0.1.tar.gz"
-  sha256 "affe623359fbb6b20b7fd8c9596e284dfe9536865ba1a33d516b863c8dc1930c"
+  url "https://github.com/pritamwipro/btplayersetup/archive/v1.0.2.tar.gz"
+  sha256 "f2b018c0f53c29b4683972a4c2e64e3780a4e97de0e4820031e3aeb08393135c"
   license ""
 
   def install
