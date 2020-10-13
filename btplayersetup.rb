@@ -4,11 +4,11 @@
 class Btplayersetup < Formula
   desc ""
   homepage ""
-  url "https://github.com/pritamwipro/btplayersetup/archive/v1.1.1.tar.gz"
-  sha256 "89432b622315514a89d29e0d0dc362299b31b2e3db71ff878b5766c8aeb709e0"
+  url "https://github.com/pritamwipro/btplayersetup/archive/v1.1.2.tar.gz"
+  sha256 "7413ee5d7ff941ab218bf7e30956405335e750a7773048f476ff2df09e65bd05"
   license ""
 
-  depends_on cask: 'virtualbox'
+  depends_on "node" => :build
 
   def install
     bin.install "btplayersetup"
