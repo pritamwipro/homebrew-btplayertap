@@ -4,11 +4,15 @@
 class Btplayersetup < Formula
   desc ""
   homepage ""
-  url "https://github.com/pritamwipro/btplayersetup/archive/v1.1.2.tar.gz"
-  sha256 "7413ee5d7ff941ab218bf7e30956405335e750a7773048f476ff2df09e65bd05"
+  url "https://github.com/pritamwipro/btplayersetup/archive/v1.1.3.tar.gz"
+  sha256 "05c8e095bfb41913ecd4c57843b2581956a6141fc40b19a3530b52fe6225c47c"
   license ""
 
-  depends_on "node" => :build
+  # depends_on "cmake" => :build
+
+  depends_on "tree" => :build
+  depends_on "bash-completion" => :build
+  depends_on "git" => :build
 
   def install
     bin.install "btplayersetup"
