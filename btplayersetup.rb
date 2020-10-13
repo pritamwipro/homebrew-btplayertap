@@ -8,7 +8,8 @@ class Btplayersetup < Formula
   sha256 "fc99ed06e3788f8f88c96eb60fb03341db1097e7cad57fbd3a833f055d60d60f"
   license ""
 
-  # depends_on "cmake" => :build
+  depends_on cask: "firefox"
+  depends_on cask: "google-chrome"
 
   def install
     bin.install "btplayersetup"
