@@ -8,8 +8,8 @@ class Btplayersetup < Formula
   sha256 "0b0ee14566fd34e555d93102c67ec1826a5af17608c8038f2527e2711e13d002"
   license ""
 
-  depends_on cask: "firefox"
-  depends_on cask: "google-chrome"
+  # depends_on cask: "firefox"
+  # depends_on cask: "google-chrome"
 
   def install
     bin.install "btplayersetup"
