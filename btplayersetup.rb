@@ -4,8 +4,8 @@
 class Btplayersetup < Formula
   desc ""
   homepage ""
-  url "https://github.com/pritamwipro/btplayersetup/archive/v1.0.8.tar.gz"
-  sha256 "fc99ed06e3788f8f88c96eb60fb03341db1097e7cad57fbd3a833f055d60d60f"
+  url "https://github.com/pritamwipro/btplayersetup/archive/v1.0.9.tar.gz"
+  sha256 "0b0ee14566fd34e555d93102c67ec1826a5af17608c8038f2527e2711e13d002"
   license ""
 
   depends_on cask: "firefox"
